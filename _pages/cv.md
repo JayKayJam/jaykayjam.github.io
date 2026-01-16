@@ -9,56 +9,69 @@ redirect_from:
 
 {% include base_path %}
 
+Profile
+======
+Computer Engineer with a background in robotics and autonomous systems. Experienced in
+developing systems incorporating robotics principles such as vehicle vision and locomotion as well as
+implementation of AI models. Proficient in various engineering principles such as hardware/software
+development and data analysis as well as high familiarity with various methods of simulation and testing.
+
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**George Mason University**
+<br>BS in Computer Engineering: **August 2021 - May 2025**
+<br>MS in Computer Engineering w/ Concentration in Computer Architechture and Embedded Systems: **January 2026 - December 2028 Expected**
+* Relevant Courses
+  * Data Structures
+  * Computer Organization
+  * FPGA Design w/ VHDL
+  * Operating Systems
+  * Microcontrollers
+  * GPU Architecture and Programming
+  * Mobile Robotics
+  * Internet of Things
+  * Digital System Design
+  * Electric Circuit Analysis I/II
+  * Linear Electronics
+
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**PetSmart**
+* Retail Sales Associate: **June 2021 - Current**
+  * Used communication skills to consistently achieve a member conversion of 25% or more
+  * Demonstrated flexibility by working in different departments such as inventory management and pet care and completing unfamiliar tasks. 
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**NeuroVision AI Tech**
+* Artificial Vision Engineer Inter: **August 2025 - October 2025**
+  * Implemented federated learning techniques to develop a decentralized AI model to allow for training across multiple client devices while maintaining data security.
+  * Utilized CARLA to simulate vehicle behavior in diverse environments and scenarios.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+
+Projects
+======
+See my [Portfolio]({{ site.baseurl }}/portfolio/) for full details
+
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Programming Languages
+  * Python
+  * C/C++
+  * Java
+  * VHDL
+  * MATLAB
+* Software
+  * Microsoft Office
+  * Autodesk Inventor
+  * Git
+  * PSpice
+  * AutoCAD
+  * Docker
+  * CARLA
+* Core Competencies
+  * AI/ML
+  * Electrical Systems
+  * FPGA Design
+  * Communication Protocols
