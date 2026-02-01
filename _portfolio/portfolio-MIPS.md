@@ -6,7 +6,7 @@ collection: portfolio
 author_profile: false
 share: false
 classes: wide
-order: 2
+order: 4
 ---
 
 This project was the culmination of the lab portion of my **Computer Organization class (ECE 445 at GMU)**. This project was created in VHDL using **Vivado** as our software of choice. The lab course initially started by creating smaller components of the pipeline such as an Arithmetic Logic Unit (ALU) and easier parts of the pipeline before the entirety of this project was assembled (R-type was created first, then implementation of I-type was added, and finally J-type was added for the final project).

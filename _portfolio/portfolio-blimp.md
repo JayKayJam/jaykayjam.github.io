@@ -6,7 +6,7 @@ collection: portfolio
 author_profile: false
 share: false
 classes: wide
-order: 3
+order: 2
 ---
 
 This project was a year long project that myself and 5 other group members developed as a part of our Capstone project. The goal of this project was to create an autonomous "blimp" (I'm using the word blimp loosely as our project is a lighter-than-air vehicle and for lack of a better word) to compete in a multi-university competition sponsored by Office of Naval Research **(ONR)** called "Defend The Republic" **(DTR)**

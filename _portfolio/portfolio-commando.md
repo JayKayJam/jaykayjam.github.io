@@ -6,7 +6,7 @@ collection: portfolio
 author_profile: false
 share: false
 classes: wide
-order: 4
+order: 3
 ---
 <span style="color: red;"><b>This project is not finished,</b> I will update this page as progress is made</span>
 
