@@ -1,11 +1,12 @@
 ---
 layout: archive-wide
 title: "YOLO Drawing"
-excerpt: "Using YOLO object detection to draw on UI <br/> <img src='/images/yolo-draw-picture.png' width=500>"
+excerpt: "Using YOLO object detection to draw on UI <br/> <img src='/images/yolo-draw-picture.png' width=750>"
 collection: portfolio
 author_profile: false
 share: false
 classes: wide
+order: 1
 ---
 
 This was a simple project, mainly just for learning purposes as I wanted to get more familiar with trying to create a unique GUI as well as a few other skills. The concept is simple; use a YOLO model to detect some object, and update pixel values on a GUI according to where the object is detected.

@@ -1,39 +1,51 @@
 ---
 layout: archive-wide
-title: "Maze Navigating Robot"
-excerpt: "A Navigation Robot using Ultrasonic Sensors<br/><img src='/images/navigator-robot.png'>"
+title: "3D Printed Armor Suit <img src='/images/star.png' width=20>"
+excerpt: "A small passion project designed using Autodesk Inventor<br/><img src='/images/commando-updated-design.png' width=750>"
 collection: portfolio
 author_profile: false
 share: false
 classes: wide
+order: 4
 ---
+<span style="color: red;"><b>This project is not finished,</b> I will update this page as progress is made</span>
 
-This was the final project of my ECE350 class at GMU; Embedded Systems and Hardware Interfaces. The purpose of the project was to create something using a Beaglebone Black board. We were given creative liberty with what the project was designed to do, and my groupmate and I decided we wanted to make something related to robotics.
+The initial idea behind this little project was to try to have a Halloween costume that I made on my own that I could show off to friends. I thought it would be way more interesting to have real time and effort put into creating something of my own rather than buying something from a store (not that I really care too much about Halloween anyway), but I also just wanted to try something different with my CAD skills, creating something from the ground up using real measurements and fitting parts together.
 
-In one of our more recent labs we experimented with using ultrasonic sensors, so with the lab relatively fresh in our mind, we decided to create a traversal robot using the ultrasonic sensor as a navigation assistant.
-
-<hr>
-## Components and Function
-
-The components we used for this project were:
-- Beaglebone Black
-- Two Brushless Motors & wheels
-- One pivot wheel
-- L298N Motor Driver
+For some background, I did not come up with this design myself, it's inspired from a character from the "Risk of Rain" game series as I really enjoy the game franchise. I figured this character's design was simple enough to design in Autodesk Inventor, which is my CAD program of choice, and that I could fit this project in within a couple of months while doing schoolwork as well, just in time for Halloween. I will admit, however, that it was a lot more of a tedious process than I first anticipated.
 
 <p align="center">
-<img src='/images/navigator-video.gif' width=600>
-<br>The robot navigating through custom-made course
+<img src='/images/ror2-picture.png' width=600>
+<br>The referenced character, along with my many hours (694 as of writing) played on this game
 </p>
 
-The robot follows a simple procedure; Move foreward until there is a wall within a set distance -> Check left & right, compare distances to see which one has a further wall (to determine which side is a wall or not) -> turn the direction of chosen side until ultrasonic reading is sufficient -> Repeat.
+<hr>
+## Initial Design
+Initially, I started designing this outfit just as a fun side-task. I didn't have any original plans for 3D printing, so I only used rough measurements and just experiemented with a few design techniques. It was only after an early design that I realized I was actually really happy with how the outfit came out, so I decidede to redesign it with a little more detail and proper measurements.
 
-If a wall is detected on both sides, the robot will use a different distance threshold to determine when it should stop rotating. We found this increases the consistency of 160 degree turns. While the whole behavior is a relatively simple procedure, it works to successfully navigate with relatively high consistency.
+<p align="center">
+<img src='/images/commando-initial-design.png' width=500> <img src='/images/commando-helmet-design.png' width=675>
+<br>Earlier prototype of body (left) and helmet holder (right)
+</p>
+
+I initially only designed the body and helmet before putting the project on the shelf for a little while. During this time I replaced a few parts within my PC and in the process had some trouble with getting my system to start properly, and in my great adventure to get my system working again, I wiped my C: drive which, inconveniently, contained everything I had already worked on.
+
+So I guess we do it again! But <img src='/images/sparkle-purple.png' width=30><b>better</b><img src='/images/sparkle-purple.png' width=30>
+
+<hr>
+## Updated Design
+The second time around, I made sure the dimensions were more true to the original design, as the previous one was admittedly incorrectly proportioned, and I also added a few more missing details to the design.
+
+<p align="center">
+<img src='/images/commando-updated-design.png' width=500> <img src='/images/commando-printed.png' width=350>
+<br>Newer design of the body (left) and 3D printed version waiting to be finished (right)
+</p>
+
+When it came to actually printing out the parts, I had to split each part and make inserts to force fit each part together because I could not print every object as just one large part (particularly the chest-piece). This does cause noticable lines throughout the design, but I plan on using spot-putty to cover up these areas to give it a much cleaner look.
+
+The helmet was made from a 12-inch acryllic dome with an opening at the bottom which was then cut to size to match the holder. It was sprayed with a gold mirror spray with a lighter spray around the front for visibility so yes, you can see out of the helmet. The vision with the helmet on is grainy at best, but it's better than bumping every wall you get close to.
 
 <hr>
 ## End Thoughts
-Admittedly, calling this project a "maze navigator" is a little bit of a stretch, in reality while it has the ability to traverse through a maze, it does not hold any type of memory or pattern recognition to avoid entering previously explored areas.
-
-The biggest issue we had with our robot was the size restrictions. Due to requiring a course to show how our robot functions, we had to make sure it was large enough to show the functions of the robot, while not taking up too much space because the room our class had reserved needed to house the whole class's projects. Because of this we opted for a three-wheel design with a pivot wheel in the front. After construction, it seems like the pivot wheel was slightly off-centered or misaligned as the robot would have a slight rightward drift.
-
-Additionally, this project had to be completed within around a month, so we had a relatively small time-frame to do testing and modifying, but all things considered I think the project was successful at performing how we wanted it to.
+Either way I'm quite happy with how the prints came out and I'm glad that my sizing was accurate enough for a comfortable fit. If I were to redo this project I would add a few details to the outfit that I had realized I missed after a review of the project, as well as changing some features to make fitting some of the parts together easier. Ultimately these issues are not big enough for me to bother re-printing everything, but I might make some effort in the future to manually change them. Time will tell.
+<br>For the parts that still need to be finished, I've realized that I should sand down the surface of the prints before applying spray paint, as well as using primer for a better finish. Hopefully I find the time to finish this project before *next* Halloween.
