@@ -14,7 +14,8 @@ This is a list of a few of my more notable projects, either from school or perso
 {% include base_path %}
 
 
-{% for post in site.portfolio %}
+{% assign sorted = site.portfolio | sort: "order" %}
+{% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
 
