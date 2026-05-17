@@ -6,7 +6,7 @@ collection: portfolio
 author_profile: false
 share: false
 classes: wide
-order: 5
+order: 6
 ---
 
 This was the final project of my ECE350 class at GMU; Embedded Systems and Hardware Interfaces. The purpose of the project was to create something using a Beaglebone Black board. We were given creative liberty with what the project was designed to do, and my groupmate and I decided we wanted to make something related to robotics.

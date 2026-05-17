@@ -21,13 +21,14 @@ Education
 ======
 **George Mason University**
 <br>BS in Computer Engineering: **August 2021 - May 2025**
-<br>MS in Computer Engineering w/ Concentration in Computer Architechture and Embedded Systems: **January 2026 - December 2028 Expected**
+<br>MS in Computer Engineering w/ Concentration in Computer Architechture and Embedded Systems: **January 2026 - December 2027 Expected**
 * Relevant Courses
   * Data Structures
   * Computer Organization
   * FPGA Design w/ VHDL
   * Operating Systems
   * Microcontrollers
+  * Real-time Embedded Systems
   * GPU Architecture and Programming
   * Mobile Robotics
   * Internet of Things
@@ -39,7 +40,7 @@ Education
 Work experience
 ======
 **PetSmart**
-* Retail Sales Associate: **June 2021 - Current**
+* Retail Sales Associate: **June 2021 - May 2026**
   * Used communication skills to consistently achieve a member conversion of 25% or more
   * Demonstrated flexibility by working in different departments such as inventory management and pet care and completing unfamiliar tasks. 
 
